@@ -1,0 +1,7 @@
+*.log
+*.aux
+*.dvi
+*.pdf
+*.tex
+*.out
+states/
