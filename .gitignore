@@ -1,7 +1,13 @@
+/node_modules
+/_apalache-out
+
+states/
+
 *.log
 *.aux
 *.dvi
 *.pdf
 *.tex
 *.out
-states/
+
+!mise.toml

@@ -1,0 +1,5 @@
+{
+	"dependencies": {
+		"@informalsystems/quint": "^0.29.1"
+	}
+}
