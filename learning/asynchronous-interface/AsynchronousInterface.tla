@@ -17,7 +17,7 @@ Send(d) == /\ chan.ack = chan.rdy
 Recv == /\ chan.ack # chan.rdy
         /\ chan' = [chan EXCEPT !.ack = 1 - @]
 
-Next == \/ \exists d \in Data: Send(d)
+Next == \/ \E d \in Data: Send(d)
         \/ Recv
 
 Spec == Init /\ [][Next]_chan
