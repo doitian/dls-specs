@@ -7,6 +7,7 @@ CONSTANTS
     Proc,
     Addr,
     Val
+
 \* TLC does not support unbounded quantifiers.
 \* ASSUME \A p, d, miOld, miNew: /\ Send(p, d, miOld, miNew) \in BOOLEAN
 \*                               /\ Reply(p, d, miOld, miNew) \in BOOLEAN
