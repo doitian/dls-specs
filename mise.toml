@@ -1,9 +1,6 @@
 [env._]
 path = ["{{config_root}}/node_modules/.bin", "{{config_root}}/bin"]
 
-[tasks."apalache:server"]
-run= "apalache-mc server --port=8822"
-
 [tasks.clean]
 run = [
   "fd -I -e aux -e dvi -e log -e pdf -e tex -e out -x rm {}",
