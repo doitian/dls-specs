@@ -9,5 +9,6 @@ states/
 *.pdf
 *.tex
 *.out
+*.toolbox/
 
 !mise.toml
