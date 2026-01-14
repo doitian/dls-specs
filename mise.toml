@@ -3,6 +3,6 @@ path = ["{{config_root}}/node_modules/.bin", "{{config_root}}/bin"]
 
 [tasks.clean]
 run = [
-  "fd -I -e aux -e dvi -e log -e pdf -e tex -e out -x rm {}",
+  "fd -I -e aux -e dvi -e log -e pdf -e tex -e out -e old -x rm {}",
   "fd -I -t d states -x rm -rf {}",
 ]
